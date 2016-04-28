@@ -1,0 +1,24 @@
+{
+    "port": 1337,
+    "security": {
+        "secret": "ilovemoim",
+        "tokenLife" : 1440
+    },
+    "mongoose": {
+        "uri": "mongodb://root:moim@ds019481.mlab.com:19481/moim"
+    },
+    "default": {
+        "api": {
+            "version" : "v1"
+        },
+        "user": {
+            "username": "ali",
+            "password": "ali"
+        },
+        "client": {
+            "name": "iOS API v1",
+            "clientId": "ios",
+            "clientSecret": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9"
+        }
+    }
+}
