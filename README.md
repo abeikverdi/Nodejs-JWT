@@ -1,4 +1,4 @@
-# Moim Server
+# JWT Server
 
 This is Moim server backend.
 
